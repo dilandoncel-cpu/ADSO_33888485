@@ -1,0 +1,134 @@
+<html> lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HORARIO UNIVERSITARIO</title>
+    <Style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+            color: #333;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            border-color: white;
+        }
+        th, td{
+            padding: 12px;
+            border: 1px solid #999;
+            text-align: center;
+           
+        
+        }
+        th{
+            background-color: #f2f2f2;
+            color: white
+        }
+
+        .hora{
+            background-color: #dfe6e9;
+            font-weight: bold;
+        }
+        .matematica{
+            background: #74b9ff;
+        }
+        .programacion{
+            background: #ff7675;
+        }
+        .ingles{
+            background: #fdcb6e;
+        }
+        .fisica{
+            background: #55efc4;
+        }
+        .quimica{
+            background: #a29bfe;
+        }
+        .biologia{
+            background: #00b894;
+        }
+        
+            
+    </Style>
+</head>
+<body>
+    <h1>HORARIO DE UNIVERSIDAD</h1>
+    <table>
+        <tr>
+            <th>hora</th>
+            <th>lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+    
+        </tr>
+        <td class="hora">7:00 - 8:00</td>
+
+        <!-- rowspan -->
+        <td class="matematica" rowspan="2">
+            Matemáticas
+        </td>
+
+        <td class="programacion">
+            Programación
+        </td>
+
+        <td class="fisica" rowspan="3">
+            Física
+        </td>
+
+        <td class="ingles">
+            ingles
+        </td>
+
+        <td class="biologia">
+            biologia
+            <td class="quimica">
+            Quimica
+        </td>
+    </tr>
+    <tr>
+        <td class="hora">8:00 - 9:00</td>
+        <td class="programacion">
+            Programación
+        </td>
+
+        <td class="ingles">
+            ingles
+        </td>
+
+        <td class="biologia">
+            biologia
+        </td>
+            </td>
+        </td>
+    </tr>
+<tr>
+     <td class="hora">9:00 - 10:00</td>
+
+        <!-- colspan -->
+        <td class="libre" colspan="2">
+            Descanso / Cafetería
+        </td>
+
+        <td class="matematica">
+            Matemáticas
+        </td>
+
+        <td class="programacion">
+            Laboratorio
+            </td>
+
+</tr>
+    </table>
+
+</body>
+
+
+</html>
